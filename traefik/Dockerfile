@@ -1,4 +1,4 @@
-FROM traefik:v1.7.3-alpine
+FROM --platform=linux/amd64 traefik:v1.7.3-alpine
 
 ADD entrypoint.sh /custom-entrypoint.sh
 
